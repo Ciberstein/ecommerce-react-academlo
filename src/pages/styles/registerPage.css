@@ -1,0 +1,48 @@
+.registerPage__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh
+}
+
+.registerPage__form {
+    background-color: gray;
+    border-radius: 25px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.registerPage__fields-container {
+    display: flex;
+}
+.registerPage__fields-container > input {
+    outline: none;
+}
+
+.registerPage__fields-container> label {
+    width: 50%;
+    padding: 0.5rem 1rem;
+    border-radius: 25px 0 0 25px;
+    background-color: #333e48;
+    color: #fff;
+}
+
+.registerPage__fields-container > input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 0 25px 25px 0;
+    border: 2px solid #333e48;
+}
+.registerPage__form > button{
+    border-radius: 15px;
+    border: none;
+    padding: 1rem;
+    background-color: #fed700;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+}

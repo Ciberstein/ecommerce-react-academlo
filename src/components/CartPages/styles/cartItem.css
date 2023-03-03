@@ -1,0 +1,32 @@
+.cartItem__header > img {
+    max-width: 100%;
+    max-height: 100px;
+}
+
+.cartItem__container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+}
+
+.cartItem__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .5rem
+}
+
+.cartItem__body > button {
+    border-radius: 15px;
+    border: none;
+    background-color: #fed700;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cartItem__price::before{
+    content: '$';
+}

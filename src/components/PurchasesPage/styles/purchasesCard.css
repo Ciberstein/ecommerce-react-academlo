@@ -1,0 +1,20 @@
+.purchasesCard__container {
+    display: flex;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+.purchasesCard__header {
+    padding: 2rem;
+    border-right: 1px solid #dddddd;
+}
+
+.purchasesCard__header > img {
+    max-width: 200px;
+}
+
+.purchasesCard__info  {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 1rem;
+}

@@ -1,0 +1,6 @@
+.productPage__ItemContainer {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: space-around;
+}

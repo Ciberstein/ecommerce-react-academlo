@@ -1,0 +1,48 @@
+.navbar__container {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+    padding: 0 0 0 1rem;
+    background-color: #fff;
+}
+.navbar__nav {
+    display: flex;
+    align-items: center;
+}
+.navbar__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__list > li > a, .navbar__title {
+    text-decoration: none;
+    color: gray;
+} 
+
+.navbar__list > li {
+    padding: 1rem 4rem;
+    border-left: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .navbar__container, .app__products-container {
+        flex-direction: column;
+    }
+}
+
+.gotoCartLink-container {
+    width: 100%;
+    text-align: center;
+}
+
+.gotoCartLink {
+    text-decoration: none;
+}
+
+.offcanvas-body {
+    padding: 1rem 1rem 4rem 1rem !important;
+}

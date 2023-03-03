@@ -1,0 +1,19 @@
+.app__similarProducts-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__similarProducts-container > h2 {
+    padding: 0.5rem 1rem;
+    background-color: #fed700;
+    color: #000;
+    border-radius: 0 15px 0 15px;
+    margin: 0 2rem;
+}
+
+.app__similarProducts-products {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
